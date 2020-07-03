@@ -62,7 +62,7 @@ import org.testng.AssertJUnit;
 			};
 		}
 
-		@Test(dataProvider = "add", groups = { "SmokeTest" })
+		@Test(dataProvider = "add", groups = { "SmokeTest2" })
 		public void Addition(int a, int b) {
 			// CalculatorClass c = new CalculatorClass();
 			Object exepectedCondition = 5;
