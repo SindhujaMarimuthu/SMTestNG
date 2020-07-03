@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="SmokeTest2" />
+			<include name="SmokeTest3" />
+			
+			<exclude name="SmokeTest1"/>
+		</run>
+	</groups>
+	
+	<parameter name="FirstValue" value="10" />
+	<parameter name="SecondValue" value="4" />
+	<parameter name="MuFirstValue" value="10" />
+	<parameter name="MuSecondValue" value="4" />
+	<parameter name="DivFirstValue" value="10" />
+	<parameter name="DivSecondValue" value="4" />
+	<parameter name="inverse" value="21" />
+	<parameter name="negate" value="21" />
+	
+		
+
+	<test name="Test">
+		<classes>
+			<class name="com.TestNGAssignment.TestCase1" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

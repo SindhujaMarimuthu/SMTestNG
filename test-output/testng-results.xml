@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> inverse is completed]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> Subtraction is completed]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> negate is completed]]>
+    </line>
+  </reporter-output>
+  <suite name="Parallel test suite" duration-ms="60" started-at="2020-07-03T13:32:29Z" finished-at="2020-07-03T13:32:29Z">
+    <groups>
+      <group name="SmokeTest2">
+        <method signature="TestCase1.Subtraction(int, int)[pri:0, instance:com.TestNGAssignment.TestCase1@7c0e2abd]" name="Subtraction" class="com.TestNGAssignment.TestCase1"/>
+      </group> <!-- SmokeTest2 -->
+      <group name="SmokeTest3">
+        <method signature="TestCase2.multiplication(int)[pri:0, instance:com.TestNGAssignment.TestCase2@573f2bb1]" name="multiplication" class="com.TestNGAssignment.TestCase2"/>
+        <method signature="TestCase2.negate(int)[pri:0, instance:com.TestNGAssignment.TestCase2@573f2bb1]" name="negate" class="com.TestNGAssignment.TestCase2"/>
+      </group> <!-- SmokeTest3 -->
+    </groups>
+    <test name="Test" duration-ms="60" started-at="2020-07-03T13:32:29Z" finished-at="2020-07-03T13:32:29Z">
+      <class name="com.TestNGAssignment.TestCase2">
+        <test-method status="PASS" signature="multiplication(int)[pri:0, instance:com.TestNGAssignment.TestCase2@573f2bb1]" name="multiplication" duration-ms="20" started-at="2020-07-03T16:32:29Z" finished-at="2020-07-03T16:32:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> inverse is completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- multiplication -->
+        <test-method status="PASS" signature="negate(int)[pri:0, instance:com.TestNGAssignment.TestCase2@573f2bb1]" name="negate" duration-ms="2" started-at="2020-07-03T16:32:29Z" finished-at="2020-07-03T16:32:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> negate is completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- negate -->
+      </class> <!-- com.TestNGAssignment.TestCase2 -->
+      <class name="com.TestNGAssignment.TestCase1">
+        <test-method status="PASS" signature="Subtraction(int, int)[pri:0, instance:com.TestNGAssignment.TestCase1@7c0e2abd]" name="Subtraction" duration-ms="20" started-at="2020-07-03T16:32:29Z" finished-at="2020-07-03T16:32:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> Subtraction is completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Subtraction -->
+      </class> <!-- com.TestNGAssignment.TestCase1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Parallel test suite -->
+</testng-results>
